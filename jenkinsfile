@@ -1,0 +1,64 @@
+pipeline 
+{
+    agent any
+
+    stages 
+    {
+        stage('PLAN') 
+        {
+            steps 
+            {
+                echo 'plan job'
+            }
+        }
+        stage('CODE') 
+        {
+            steps 
+            {
+                echo 'code job'
+            }
+        }
+        stage('BUILD') 
+        {
+            steps 
+            {
+                echo 'build job'
+            }
+        }
+        stage('TEST') 
+        {
+            steps 
+            {
+                echo 'test job'
+            }
+        }
+        stage('INTEGRATE') 
+        {
+            steps 
+            {
+                echo 'integrate job'
+            }
+        }
+        stage('DEPLOY') 
+        {
+            steps 
+            {
+                echo 'deploy job'
+            }
+        }
+        stage('OPERATE') 
+        {
+            steps 
+            {
+                echo 'operate job'
+            }
+        }
+        stage('MONITOR') 
+        {
+            steps 
+            {
+                echo 'monitor job'
+            }
+        }
+    }
+}
