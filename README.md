@@ -1,3 +1,3 @@
 # FIrst_project
 
-It is test project to understand GIT hub !!!
+It is a test project to understand GIT hub !!!
